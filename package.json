@@ -1,0 +1,25 @@
+{
+  "name": "meal-server",
+  "version": "1.0.0",
+  "description": "Es el server de la aplicasion meal",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "graphql",
+    "apollo"
+  ],
+  "author": "joseenrique.pc21@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-server": "^2.25.3",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.7"
+  }
+}
